@@ -24,6 +24,6 @@ public  class Circuito {
     }
     @Override
     public String toString() {
-        return "inscricoes: "+this.inscricoes;
+        return "inscricoes:" + this.inscricoes;
     }
 }
