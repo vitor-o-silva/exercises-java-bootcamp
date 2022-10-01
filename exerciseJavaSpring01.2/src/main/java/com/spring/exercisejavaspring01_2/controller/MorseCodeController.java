@@ -62,9 +62,9 @@ public class MorseCodeController {
          final String[] codeDecrypt = {""};
          String[] arrayCode = code.split("   ");
          for (String c: arrayCode) {
-             String[] teste = c.split(" ");
-             Arrays.stream(teste).forEach(cd -> {
-                 if (teste[teste.length -1] == cd) {
+             String[] newArrayCode = c.split(" ");
+             Arrays.stream(newArrayCode).forEach(cd -> {
+                 if (newArrayCode[newArrayCode.length -1] == cd) {
                      codeDecrypt[0] += morseCodes.get(cd) + " ";
                  }else{
                      codeDecrypt[0] += morseCodes.get(cd);
