@@ -1,0 +1,22 @@
+[
+  {
+    "codigo": 1,
+    "nome": "coriza",
+    "nivel_de_gravidade": "baixo"
+  },
+  {
+    "codigo": 2,
+    "nome": "febre",
+    "nivel_de_gravidade": "grave"
+  },
+  {
+    "codigo": 3,
+    "nome": "Perda paladar",
+    "nivel_de_gravidade": "baixo"
+  },
+  {
+    "codigo": 4,
+    "nome": "Cansaço",
+    "nivel_de_gravidade": "medio"
+  }
+]
